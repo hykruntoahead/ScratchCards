@@ -1,0 +1,4 @@
+a.Canvas Paint Path Bitmap 常用API
+b.mPaint.setXfermode()
+c.自定义属性
+d.bitmap.getPixels-->获取像素值

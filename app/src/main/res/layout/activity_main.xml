@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hyk="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <com.hyk.scratchcards.view.ScratchCard
+        android:id="@+id/sc_view"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        hyk:text="￥5,000,000"
+        hyk:textSize="28sp"
+        hyk:textColor="@color/colorPrimary"
+        android:layout_gravity="center"/>
+
+</FrameLayout>
